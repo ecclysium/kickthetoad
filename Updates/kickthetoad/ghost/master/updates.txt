@@ -3,7 +3,7 @@ file,ghost/master/descript.txt86659cf36396f569bb13667d89d2c83bsize=196date=20
 file,ghost/master/emerg.dicc7cb6eacd3262003fef909c382a6fefesize=351date=2023-04-14T14:45:50
 file,ghost/master/icon.icod33e0446032a97eaa0aa4b26b9e22868size=21318date=2023-05-11T23:48:14
 file,ghost/master/toad_aitalk.dicdf85f3eae15a6ad04f160604fea3b8a9size=4362date=2023-05-12T00:20:57
-file,ghost/master/toad_boot.dic9bb4dc5771dbaac5916929efca18506asize=2406date=2023-05-12T01:11:51
+file,ghost/master/toad_boot.dic3b93b216fb47c46d39788ba03a563587size=2436date=2023-05-12T01:34:57
 file,ghost/master/toad_meta.dicf6c8e22cdb1e06671b09e6761a3ef3f3size=3741date=2023-05-11T23:58:13
 file,ghost/master/toad_mouse.dic9a0ba91a15735f299bcdfa51a99c0bc5size=513date=2023-05-11T23:12:41
 file,ghost/master/toad_other.dic815ead1747d7a3a0aa4f19a1d629d7e7size=6303date=2023-05-12T00:19:03

@@ -15,7 +15,7 @@ OnFirstBoot
 		"\1\s[-1]%(toad)Please don’t kick me."
 		
 	}else{
-		"Oh oh, \w4it’s you again. \w8\w8We’ve done this song and dance before, \w4haven’t we? \w8Go ahead and just do it. \w8Kick me! \w4No no, \w6I change my mind, \w8please don’t kick me."
+		"\1\s[-1]%(toad)Oh oh, \w4it’s you again. \w8\w8We’ve done this song and dance before, \w4haven’t we? \w8Go ahead and just do it. \w8Kick me! \w4No no, \w6I change my mind, \w8please don’t kick me."
 	
 	}
 }
@@ -43,7 +43,7 @@ OnBoot
 	timenotkicked = 0
 	version = "V1.0.0"
 
-	"Oh oh, \w4it’s you again. \w8\w8We’ve done this song and dance before, \w4haven’t we? \w8Go ahead and just do it. \w8Kick me! \w4No no, \w6I change my mind, \w8please don’t kick me."
+	"\1\s[-1]%(toad)Oh oh, \w4it’s you again. \w8\w8We’ve done this song and dance before, \w4haven’t we? \w8Go ahead and just do it. \w8Kick me! \w4No no, \w6I change my mind, \w8please don’t kick me."
 	
 	
 }

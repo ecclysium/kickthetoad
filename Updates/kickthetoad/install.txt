@@ -3,3 +3,5 @@ type,ghost
 
 name,Toad
 directory,kick_the_toad
+
+balloon.directory,simpletrain

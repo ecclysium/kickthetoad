@@ -1,0 +1,5 @@
+charset,Shift_JIS
+type,balloon
+name,Simple Train
+directory,simpletrain
+refresh,1

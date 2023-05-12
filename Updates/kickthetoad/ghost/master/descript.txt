@@ -1,0 +1,16 @@
+charset,UTF-8
+
+name,Toad
+type,ghost
+
+shiori,yaya.dll
+
+craftman,Galehaut & SecretPie & Ecclysium
+craftmanurl,
+
+sakura.name,Toad
+kero.name,
+
+icon,icon.ico
+
+sstp.allowunspecifiedsend,0

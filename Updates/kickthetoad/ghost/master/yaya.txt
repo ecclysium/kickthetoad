@@ -1,0 +1,26 @@
+charset, UTF-8
+charset.dic, UTF-8
+charset.output, UTF-8
+charset.file, UTF-8
+charset.save, UTF-8
+charset.extension, UTF-8
+
+dicdir, yaya_base
+
+dic, toad_aitalk.dic
+dic, toad_boot.dic
+dic, toad_mouse.dic
+dic, toad_meta.dic
+dic, toad_other.dic
+dic, toad_sakura_menu.dic
+dic, toad_word.dic
+
+msglang,english
+
+//------------------------------------------------------------------------------
+//Execution log
+//The execution log is recorded in ayame.log. It is recommended to keep logs during development.
+//------------------------------------------------------------------------------
+// log, ayame.log	
+ignoreiolog, ID: OnSecondChange //Ignores OnSecondChange
+ignoreiolog, ID: OnMouse        //Ignores all OnMouse functions

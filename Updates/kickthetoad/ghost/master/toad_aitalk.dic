@@ -1,0 +1,47 @@
+OnAiTalk
+{
+	if CHAIN.IDName == ""
+	{
+		LastTalk = RandomTalk
+	}
+	else
+	{
+		LastTalk = ChainTalk
+	}
+	LastTalk
+}
+
+RandomTalk : nonoverlap_pool
+{
+	"%(toad)Please don’t kick me. "
+	"%(toad)I’m just a poor little toad who didn’t do nothing wrong. \w8Please don’t kick me."
+	"I don’t like the way you’re looking at me. \w8Kinda seems like you wanna kick me. \w8\w4Please don’t kick me. "
+	"Please don’t kick me- I’ve been kicked so many times. \w8You’ll be different right? \w8\w5You’ll be the one that doesn’t kick me. "
+	"I’m not a soccer ball. \w8I’m just a little old toad. \w8Please don’t kick me. "
+	"If you kick me, you’ll get a magic curse that makes everything you eat taste like an egg salad sandwich. \w8Which might not seem so bad now.\w4.\w4. maybe you like egg salad sandwich. \w8But egg salad sandwich forever? \w8That’s what you’ll get if you kick me. \w8I just made that all up please don’t kick me."
+	"No no, \w4there’s no way to pet me or feed me. \w8No way to free me. \w8I know my fate. \w8But please please, \w5oh lawd, \w5don’t kick me. "
+	"Everyone’s the same. \w8They always kick me. "
+	"I know you’re gonna kick me, \w4because you wanna see what happens. \w8Ain’t that right? \w8You wanna know what happens if you kick me. \w8I’ll tell you what’ll happen. \w8Nothing more than a poor little toad being kicked. "
+	"Kicking me is the only thing you can do. \w8It’s almost like a metaphor for life.\w4.\w4.\w4 but I’m no philosopher. \w8I’m just a poor little toad. \w8Please don’t kick me. "
+	"Not once have I enjoyed being kicked. \w8Not once. \w8Please don’t kick me."
+	"My legs were made for hopping. \w8Your legs are made for something, \w6I’m sure. \w8Not kicking. \w8Surely they are for something else. \w8Please don’t kick me. "
+	"I have dreams. \w8It may not seem like a poor little toad would have dreams but I have dreams. \w8I have dreams about not being kicked. \w8Please don’t kick me. "
+	"Say you do kick me. \w8What then? \w6That’s all there is. "
+	"I’m not one of those toads with skin that’s poisonous or covered in spines. \w8If you kick me there will be no negative consequences for you. \w8No negative consequences if you kick me. \w8But there will be for me, \w4you see, \w6‘cause I’m just a poor little toad. \w8Please don’t kick me. "
+	"Would your mother kick me? \w8Maybe you don’t have a mother, \w4but if you did, \w6would she kick me? \w8Maybe she would, \w6but that doesn’t mean that you should. \w8Please don’t kick me. "
+	"If you are going to kick me, \w4please be gentle. \w8You don’t have to use all your strength."
+	"No one ever asks me how I feel about being kicked. \w8Well, I’ll tell you–not good! \w8Please don’t kick me. "
+	"If you don’t kick me, I’ll give you some money. \w8You can buy yourself something nice. \w8Like a nice hat. \w8Ooohhh….ohh I made that up I don’t have any money. \w8I’m just a poor little toad. \w8Please don’t kick me. "
+	"Now, I’m just a poor little toad. \w8I don’t know much about anything metaphysical, but I believe all us living creatures share a soul. \w8So if you kick me, it’ll be almost like you’d be kicking yourself. \w8Please don’t kick me."
+	"Don’t even think about it. \w8You were just thinking about it weren’t you? \w8You were thinking about kicking me. \w8Please don’t kick me. "
+	"Please don’t kick me. \w8I have a beautiful wife. \w8And five hundred beautiful children. \w8Ooooh I made that up. \w8I’ve never met another toad in my life. \w5\w8Are there other toads? \w8Am I really all alone? \w8\w8\w8Oh please don’t kick me. "
+	"There are moments we wanna create that we can look back on with fondness. \w8Do you really think this is gonna be one of those moments?"
+	"I know what the sign says, \w5but I didn’t put it there. \w8I didn’t ask for this. \w8Please don’t kick me. "
+	"I wish I had more to say. \w8But I don’t think I existed before you downloaded me from that there computer file. \w8I wish I could offer you some other kind of entertainment besides kicking me. \w8Maybe I can. \w8Do you wanna hear a joke? \w8Knock knock. \w8Please don’t kick me. \w9\w8Oh no.\w4.\w4.I forgot to say a joke. \w8\w8Please don’t kick me. "
+
+}
+
+OnMinuteChange{
+	timenotkicked++
+
+}
